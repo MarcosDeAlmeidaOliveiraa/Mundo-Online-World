@@ -55,8 +55,8 @@ export default function App() {
         labels={navLabels}
         languages={languages}
         currentLanguage={language}
-        onSelectLanguage={setLanguage}
         loading={loading}
+         onSelectLanguage={setLanguage}
       />
 
       <main className="pt-24 space-y-12 md:space-y-16">

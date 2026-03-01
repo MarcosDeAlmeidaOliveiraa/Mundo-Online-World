@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { FiHelpCircle, FiHome, FiGlobe, FiChevronDown } from 'react-icons/fi'
 import ReactCountryFlag from 'react-country-flag'
+// import {} from '@heroicons/react/24/outline'
 
 const navItems = [
   { href: '#home', icon: FiHome, labelKey: 'home' },
@@ -19,7 +20,7 @@ export function Header({ labels, languages, currentLanguage, onSelectLanguage, l
           <div className="flex items-center gap-2">
             <span className="text-4xl font-black tracking-tighter text-slate-900 line-height-tight">Mundo<span className="text-brand-primary">Online</span>World</span>
           </div>
-          <span className="text-sm font-black uppercase tracking-[0.3em] text-brand-primary">Expanda seu Negócio</span>
+          <span className="text-sm font-black uppercase tracking-[0.3em] text-brand-primary">{labels?.tagline}</span>
         </div>
         
         <div className="flex items-center gap-4 md:gap-8">

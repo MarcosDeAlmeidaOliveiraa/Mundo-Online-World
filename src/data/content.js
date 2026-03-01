@@ -15,7 +15,8 @@ export const baseContent = {
   nav: {
     home: 'Início',
     details: 'Planos',
-    faq: 'FAQ'
+    faq: 'FAQ',
+    tagline: 'Expanda seu Negócio'
   },
   hero: {
     slides: [
@@ -26,6 +27,8 @@ export const baseContent = {
         description: 'Site estático de 1 página ideal para autônomos e microempreendedores. Nós criamos, hospedamos e gerenciamos para você.',
         price: {
           main: '$99/anual',
+          oldPrice: '$330',
+          brl: { main: 'R$ 599/anual', oldPrice: 'R$ 1.999' },
           note: 'Hospedagem estática (GitHub/Render) inclusa'
         },
         features: [
@@ -46,6 +49,8 @@ export const baseContent = {
         description: 'Site dinâmico de até 5 páginas com banco de dados. Perfeito para empresas que precisam de mais espaço e SEO.',
         price: {
           main: '$199/anual',
+          oldPrice: '$660',
+          brl: { main: 'R$ 1.199/anual', oldPrice: 'R$ 3.999' },
           note: 'Banco de Dados + 5GB de Armazenamento'
         },
         features: [
@@ -53,7 +58,7 @@ export const baseContent = {
           'Banco de Dados (Supabase)',
           'Remoção da Marca d\'água "Built By"',
           '3 Atualizações Menores por mês',
-          'Google Analytics e Configuração SEO'
+          // 'Google Analytics e Configuração SEO'
         ],
         cta: 'Assinar Plano Profissional',
         image: card2,
@@ -66,6 +71,8 @@ export const baseContent = {
         description: 'Plataforma completa e dinâmica. Faça login no CMS para editar seu próprio conteúdo e aceite pagamentos online.',
         price: {
           main: '$499/anual',
+          oldPrice: '$1000',
+          brl: { main: 'R$ 2.999/anual', oldPrice: 'R$ 5.999' },
           note: 'Tráfego de 50GB + 20GB de Armazenamento'
         },
         features: [
@@ -118,11 +125,11 @@ export const baseContent = {
           title: 'Atualizações Contínuas',
           description: 'Precisa trocar uma foto ou um texto? Oferecemos atualizações menores mensais, ou edições ilimitadas no plano Premium.'
         },
-        {
-          icon: 'file',
-          title: 'Google Analytics e SEO',
-          description: 'Otimização para os motores de busca e rastreamento de visitantes inclusos nos planos Profissional e Premium.'
-        },
+        // {
+        //   icon: 'file',
+        //   title: 'Google Analytics e SEO',
+        //   description: 'Otimização para os motores de busca e rastreamento de visitantes inclusos nos planos Profissional e Premium.'
+        // },
         {
           icon: 'shield',
           title: 'Aceite Pagamentos Online',
