@@ -24,7 +24,7 @@ export function HomeScreen({ slides, ctaLink, loading }) {
               </span>
               <h1 className="text-5xl font-black leading-[1.1] tracking-tight text-white md:text-7xl lg:text-8xl">
                 Sua Empresa na <br />
-                <span className="bg-gradient-to-r from-brand-secondary via-white to-brand-secondary bg-clip-text text-transparent italic">Vitrine Digital</span>
+                <span className="bg-gradient-to-r from-brand-primary via-brand-secondary to-brand-primary bg-clip-text text-transparent italic">Vitrine Digital</span>
               </h1>
               <p className="mx-auto mt-8 max-w-2xl text-lg font-medium text-white/90 md:text-2xl">
                 {primaryDescription}
