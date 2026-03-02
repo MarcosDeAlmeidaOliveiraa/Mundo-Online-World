@@ -14,6 +14,7 @@ export const languages = [
 export const baseContent = {
   nav: {
     home: 'Home',
+    brl: { home: 'Inicio'},
     details: 'Plans',
     faq: 'FAQ',
     tagline: 'Expand Your Business'
